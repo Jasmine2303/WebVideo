@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68538FD524EF2C0100958D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68538FD424EF2C0100958D40 /* AppDelegate.swift */; };
+		68538FD724EF2C0100958D40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68538FD624EF2C0100958D40 /* SceneDelegate.swift */; };
+		68538FD924EF2C0100958D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68538FD824EF2C0100958D40 /* ViewController.swift */; };
+		68538FDC24EF2C0100958D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68538FDA24EF2C0100958D40 /* Main.storyboard */; };
+		68538FDE24EF2C0300958D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68538FDD24EF2C0300958D40 /* Assets.xcassets */; };
+		68538FE124EF2C0300958D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68538FDF24EF2C0300958D40 /* LaunchScreen.storyboard */; };
+		68538FEC24EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68538FEB24EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests.swift */; };
+		68538FF724EF2C0400958D40 /* Jasmine_A_VideoWebPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68538FF624EF2C0400958D40 /* Jasmine_A_VideoWebPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68538FE824EF2C0300958D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68538FC924EF2C0100958D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68538FD024EF2C0100958D40;
+			remoteInfo = Jasmine_A_VideoWebPlayer;
+		};
+		68538FF324EF2C0300958D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68538FC924EF2C0100958D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68538FD024EF2C0100958D40;
+			remoteInfo = Jasmine_A_VideoWebPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68538FD124EF2C0100958D40 /* Jasmine_A_VideoWebPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jasmine_A_VideoWebPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68538FD424EF2C0100958D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68538FD624EF2C0100958D40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68538FD824EF2C0100958D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68538FDB24EF2C0100958D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68538FDD24EF2C0300958D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68538FE024EF2C0300958D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68538FE224EF2C0300958D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68538FE724EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jasmine_A_VideoWebPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68538FEB24EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jasmine_A_VideoWebPlayerTests.swift; sourceTree = "<group>"; };
+		68538FED24EF2C0300958D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68538FF224EF2C0300958D40 /* Jasmine_A_VideoWebPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jasmine_A_VideoWebPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68538FF624EF2C0400958D40 /* Jasmine_A_VideoWebPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jasmine_A_VideoWebPlayerUITests.swift; sourceTree = "<group>"; };
+		68538FF824EF2C0400958D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68538FCE24EF2C0100958D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68538FE424EF2C0300958D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68538FEF24EF2C0300958D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68538FC824EF2C0100958D40 = {
+			isa = PBXGroup;
+			children = (
+				68538FD324EF2C0100958D40 /* Jasmine_A_VideoWebPlayer */,
+				68538FEA24EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests */,
+				68538FF524EF2C0300958D40 /* Jasmine_A_VideoWebPlayerUITests */,
+				68538FD224EF2C0100958D40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68538FD224EF2C0100958D40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68538FD124EF2C0100958D40 /* Jasmine_A_VideoWebPlayer.app */,
+				68538FE724EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests.xctest */,
+				68538FF224EF2C0300958D40 /* Jasmine_A_VideoWebPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68538FD324EF2C0100958D40 /* Jasmine_A_VideoWebPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				68538FD424EF2C0100958D40 /* AppDelegate.swift */,
+				68538FD624EF2C0100958D40 /* SceneDelegate.swift */,
+				68538FD824EF2C0100958D40 /* ViewController.swift */,
+				68538FDA24EF2C0100958D40 /* Main.storyboard */,
+				68538FDD24EF2C0300958D40 /* Assets.xcassets */,
+				68538FDF24EF2C0300958D40 /* LaunchScreen.storyboard */,
+				68538FE224EF2C0300958D40 /* Info.plist */,
+			);
+			path = Jasmine_A_VideoWebPlayer;
+			sourceTree = "<group>";
+		};
+		68538FEA24EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				68538FEB24EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests.swift */,
+				68538FED24EF2C0300958D40 /* Info.plist */,
+			);
+			path = Jasmine_A_VideoWebPlayerTests;
+			sourceTree = "<group>";
+		};
+		68538FF524EF2C0300958D40 /* Jasmine_A_VideoWebPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68538FF624EF2C0400958D40 /* Jasmine_A_VideoWebPlayerUITests.swift */,
+				68538FF824EF2C0400958D40 /* Info.plist */,
+			);
+			path = Jasmine_A_VideoWebPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68538FD024EF2C0100958D40 /* Jasmine_A_VideoWebPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68538FFB24EF2C0400958D40 /* Build configuration list for PBXNativeTarget "Jasmine_A_VideoWebPlayer" */;
+			buildPhases = (
+				68538FCD24EF2C0100958D40 /* Sources */,
+				68538FCE24EF2C0100958D40 /* Frameworks */,
+				68538FCF24EF2C0100958D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jasmine_A_VideoWebPlayer;
+			productName = Jasmine_A_VideoWebPlayer;
+			productReference = 68538FD124EF2C0100958D40 /* Jasmine_A_VideoWebPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68538FE624EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68538FFE24EF2C0400958D40 /* Build configuration list for PBXNativeTarget "Jasmine_A_VideoWebPlayerTests" */;
+			buildPhases = (
+				68538FE324EF2C0300958D40 /* Sources */,
+				68538FE424EF2C0300958D40 /* Frameworks */,
+				68538FE524EF2C0300958D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68538FE924EF2C0300958D40 /* PBXTargetDependency */,
+			);
+			name = Jasmine_A_VideoWebPlayerTests;
+			productName = Jasmine_A_VideoWebPlayerTests;
+			productReference = 68538FE724EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68538FF124EF2C0300958D40 /* Jasmine_A_VideoWebPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6853900124EF2C0400958D40 /* Build configuration list for PBXNativeTarget "Jasmine_A_VideoWebPlayerUITests" */;
+			buildPhases = (
+				68538FEE24EF2C0300958D40 /* Sources */,
+				68538FEF24EF2C0300958D40 /* Frameworks */,
+				68538FF024EF2C0300958D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68538FF424EF2C0300958D40 /* PBXTargetDependency */,
+			);
+			name = Jasmine_A_VideoWebPlayerUITests;
+			productName = Jasmine_A_VideoWebPlayerUITests;
+			productReference = 68538FF224EF2C0300958D40 /* Jasmine_A_VideoWebPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68538FC924EF2C0100958D40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jasmine Alarcon";
+				TargetAttributes = {
+					68538FD024EF2C0100958D40 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					68538FE624EF2C0300958D40 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 68538FD024EF2C0100958D40;
+					};
+					68538FF124EF2C0300958D40 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 68538FD024EF2C0100958D40;
+					};
+				};
+			};
+			buildConfigurationList = 68538FCC24EF2C0100958D40 /* Build configuration list for PBXProject "Jasmine_A_VideoWebPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68538FC824EF2C0100958D40;
+			productRefGroup = 68538FD224EF2C0100958D40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68538FD024EF2C0100958D40 /* Jasmine_A_VideoWebPlayer */,
+				68538FE624EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests */,
+				68538FF124EF2C0300958D40 /* Jasmine_A_VideoWebPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68538FCF24EF2C0100958D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68538FE124EF2C0300958D40 /* LaunchScreen.storyboard in Resources */,
+				68538FDE24EF2C0300958D40 /* Assets.xcassets in Resources */,
+				68538FDC24EF2C0100958D40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68538FE524EF2C0300958D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68538FF024EF2C0300958D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68538FCD24EF2C0100958D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68538FD924EF2C0100958D40 /* ViewController.swift in Sources */,
+				68538FD524EF2C0100958D40 /* AppDelegate.swift in Sources */,
+				68538FD724EF2C0100958D40 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68538FE324EF2C0300958D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68538FEC24EF2C0300958D40 /* Jasmine_A_VideoWebPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68538FEE24EF2C0300958D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68538FF724EF2C0400958D40 /* Jasmine_A_VideoWebPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68538FE924EF2C0300958D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68538FD024EF2C0100958D40 /* Jasmine_A_VideoWebPlayer */;
+			targetProxy = 68538FE824EF2C0300958D40 /* PBXContainerItemProxy */;
+		};
+		68538FF424EF2C0300958D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68538FD024EF2C0100958D40 /* Jasmine_A_VideoWebPlayer */;
+			targetProxy = 68538FF324EF2C0300958D40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68538FDA24EF2C0100958D40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68538FDB24EF2C0100958D40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68538FDF24EF2C0300958D40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68538FE024EF2C0300958D40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68538FF924EF2C0400958D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68538FFA24EF2C0400958D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68538FFC24EF2C0400958D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_VideoWebPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-VideoWebPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68538FFD24EF2C0400958D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_VideoWebPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-VideoWebPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68538FFF24EF2C0400958D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_VideoWebPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-VideoWebPlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jasmine_A_VideoWebPlayer.app/Jasmine_A_VideoWebPlayer";
+			};
+			name = Debug;
+		};
+		6853900024EF2C0400958D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_VideoWebPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-VideoWebPlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jasmine_A_VideoWebPlayer.app/Jasmine_A_VideoWebPlayer";
+			};
+			name = Release;
+		};
+		6853900224EF2C0400958D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_VideoWebPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-VideoWebPlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jasmine_A_VideoWebPlayer;
+			};
+			name = Debug;
+		};
+		6853900324EF2C0400958D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_VideoWebPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-VideoWebPlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jasmine_A_VideoWebPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68538FCC24EF2C0100958D40 /* Build configuration list for PBXProject "Jasmine_A_VideoWebPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68538FF924EF2C0400958D40 /* Debug */,
+				68538FFA24EF2C0400958D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68538FFB24EF2C0400958D40 /* Build configuration list for PBXNativeTarget "Jasmine_A_VideoWebPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68538FFC24EF2C0400958D40 /* Debug */,
+				68538FFD24EF2C0400958D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68538FFE24EF2C0400958D40 /* Build configuration list for PBXNativeTarget "Jasmine_A_VideoWebPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68538FFF24EF2C0400958D40 /* Debug */,
+				6853900024EF2C0400958D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6853900124EF2C0400958D40 /* Build configuration list for PBXNativeTarget "Jasmine_A_VideoWebPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6853900224EF2C0400958D40 /* Debug */,
+				6853900324EF2C0400958D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68538FC924EF2C0100958D40 /* Project object */;
+}
